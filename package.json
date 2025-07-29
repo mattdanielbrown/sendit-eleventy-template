@@ -15,9 +15,8 @@
   "author": "CloudCannon",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
-    "@bookshop/browser": "3.16.3",
     "@bookshop/eleventy-bookshop": "3.16.3",
     "@bookshop/eleventy-engine": "3.16.3",
     "@bookshop/generate": "3.16.3",
