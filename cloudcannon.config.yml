@@ -98,6 +98,9 @@ collections_config:
         type: switch
       nav_btn:
         hidden: "!enable_nav_btn"
+        options:
+          preview:
+            icon: smart_button
   theme_palette:
     icon: palette
     path: _data
@@ -127,6 +130,9 @@ data_config:
     path: _data/blog-tags.json
 
 _inputs:
+  button:
+    options:
+      icon: smart_button
   permalink:
     type: text
     options:
