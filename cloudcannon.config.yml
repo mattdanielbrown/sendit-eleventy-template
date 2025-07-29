@@ -44,12 +44,12 @@ collections_config:
           required: true
       post_permalink:
         hidden: true
-      featured_image.image:
+      featuredImg.image:
         type: image
         options:
           width: 1296
           resize_style: crop
-      thumb_image.image:
+      thumbImg.image:
         type: image
         comment: The hero image used at the top of the page
         options:
