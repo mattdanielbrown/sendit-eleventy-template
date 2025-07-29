@@ -46,12 +46,12 @@ collections_config:
         hidden: true
       featuredImg.image:
         type: image
+        comment: The hero image used at the top of the page
         options:
           width: 1296
           resize_style: crop
       thumbImg.image:
         type: image
-        comment: The hero image used at the top of the page
         options:
           required: true
           width: 500
