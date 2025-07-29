@@ -9,7 +9,8 @@
     "bookshop-sass:watch": "bookshop-sass -b component-library -o site/css/theme.css -w",
     "eleventy:build": "ELEVENTY_ENV=production eleventy",
     "eleventy:watch": "ELEVENTY_ENV=development eleventy --serve",
-    "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch bookshop:watch eleventy:watch"
+    "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch bookshop:watch eleventy:watch",
+    "build": "npx @11ty/eleventy --output _site"
   },
   "author": "CloudCannon",
   "license": "MIT",

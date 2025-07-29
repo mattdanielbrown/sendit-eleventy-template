@@ -3,7 +3,7 @@
   "mode": "hosted",
   "build": {
     "install_command": "npm i",
-    "build_command": "npx @11ty/eleventy --config=$CONFIG_INJECTED --output _site",
+    "build_command": "npm run build",
     "output_path": "_site",
     "environment_variables": [],
     "preserved_paths": "node_modules",

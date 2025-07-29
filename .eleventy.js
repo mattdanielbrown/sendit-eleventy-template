@@ -8,7 +8,6 @@ const MarkdownIt = require("markdown-it"),
   });
 
 module.exports = function (eleventyConfig) {
-
   eleventyConfig.addFilter("length", (input) => {
     return input.length;
   });
@@ -28,7 +27,6 @@ module.exports = function (eleventyConfig) {
       pathPrefix: "",
     })
   );
-  eleventyConfig.ignores.add("site/schemas");
   eleventyConfig.addPassthroughCopy("site/css");
   eleventyConfig.addPassthroughCopy("site/fonts");
   eleventyConfig.addPassthroughCopy("site/images");
