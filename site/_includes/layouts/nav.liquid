@@ -83,7 +83,7 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mx-auto mb-20 mb-lg-0">
-                     {% for item in nav.items %}
+                     {% for item in nav.nav_items %}
                      {% assign url = item.link %}
                      <li class="nav-item dropdown">
                         {% if item.enable_dropdown and item.dropdown %}
