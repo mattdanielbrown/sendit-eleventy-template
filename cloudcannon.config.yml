@@ -12,7 +12,7 @@ commit_templates:
 
 collections_config:
   pages:
-    icon: feed
+    icon: pages
     path: pages
     url: "/[slug]/"
     disable_add_folder: true
