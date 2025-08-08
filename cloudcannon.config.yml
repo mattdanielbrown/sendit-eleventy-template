@@ -65,6 +65,27 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
+    _inputs:
+      social:
+        options:
+          structures: _structures.social 
+          preview:
+            icon: link
+      sections:
+        options:
+          structures: _structures.sections
+          preview:
+            icon: link
+      nav_items:
+        options:
+          structures: _structures.nav_items
+      enable_nav_btn:
+        type: switch
+      nav_btn:
+        hidden: "!enable_nav_btn"
+        options:
+          preview:
+            icon: smart_button
 
 collection_groups:
   - heading: Pages
