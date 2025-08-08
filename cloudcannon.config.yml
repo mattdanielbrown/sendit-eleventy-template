@@ -65,52 +65,6 @@ collections_config:
     disable_add_folder: true
     _enabled_editors:
       - data
-    glob:
-      - "!nav.json"
-      - "!footer.json"
-      - "!theme.json"
-  site_navigation:
-    icon: table_rows
-    path: _data
-    disable_url: true
-    disable_add: true
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    glob:
-      - nav.json
-      - footer.json
-    _inputs:
-      social:
-        options:
-          structures: _structures.social 
-          preview:
-            icon: link
-      sections:
-        options:
-          structures: _structures.sections
-          preview:
-            icon: link
-      nav_items:
-        options:
-          structures: _structures.nav_items
-      enable_nav_btn:
-        type: switch
-      nav_btn:
-        hidden: "!enable_nav_btn"
-        options:
-          preview:
-            icon: smart_button
-  theme_palette:
-    icon: palette
-    path: _data
-    disable_url: true
-    disable_add: true
-    disable_add_folder: true
-    _enabled_editors:
-      - data
-    glob:
-      - theme.json
 
 collection_groups:
   - heading: Pages
@@ -119,11 +73,9 @@ collection_groups:
   - heading: Blogging
     collections:
       - blog
-  - heading: Site Settings
+  - heading: Data
     collections:
       - data
-      - theme_palette
-      - site_navigation
 
 data_config:
   blog-tags:
