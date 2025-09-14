@@ -18,7 +18,7 @@
     "@11ty/eleventy": "^3.1.2",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@bookshop/eleventy-bookshop": "3.16.3",
-    "@bookshop/eleventy-engine": "3.16.3",
+    "@bookshop/eleventy-engine": "3.16.4",
     "@bookshop/generate": "3.16.3",
     "eleventy-plugin-wordcount": "^1.0.5",
     "markdown-it": "^13.0.1",
